@@ -12,12 +12,12 @@ struct AnnotationView: View {
     var availableBikes: String
     
     var body: some View {
-        HStack {
+        HStack(spacing: 8.0) {
             Image("Bike")
                 .background(content: {
                     Circle()
                         .foregroundColor(.white)
-                        .frame(width: 64, height: 64)
+                        .frame(width: 56, height: 56)
                 })
             
             Spacer()
