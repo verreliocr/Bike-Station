@@ -21,6 +21,7 @@
 		268816842905619000BEB9F5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816832905619000BEB9F5 /* LocationManager.swift */; };
 		268816872905646F00BEB9F5 /* StationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816862905646F00BEB9F5 /* StationListModel.swift */; };
 		268816892905657600BEB9F5 /* StationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816882905657600BEB9F5 /* StationListView.swift */; };
+		2688168B290565DD00BEB9F5 /* StationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688168A290565DD00BEB9F5 /* StationListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		26881685290561A600BEB9F5 /* Bike-Station-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Bike-Station-Info.plist"; sourceTree = SOURCE_ROOT; };
 		268816862905646F00BEB9F5 /* StationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListModel.swift; sourceTree = "<group>"; };
 		268816882905657600BEB9F5 /* StationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListView.swift; sourceTree = "<group>"; };
+		2688168A290565DD00BEB9F5 /* StationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				268816802905616D00BEB9F5 /* Rows */,
 				268816862905646F00BEB9F5 /* StationListModel.swift */,
 				268816882905657600BEB9F5 /* StationListView.swift */,
+				2688168A290565DD00BEB9F5 /* StationListViewModel.swift */,
 			);
 			path = "Station List";
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				268816872905646F00BEB9F5 /* StationListModel.swift in Sources */,
 				268816772905609500BEB9F5 /* HTTPMethod.swift in Sources */,
 				268816842905619000BEB9F5 /* LocationManager.swift in Sources */,
+				2688168B290565DD00BEB9F5 /* StationListViewModel.swift in Sources */,
 				2688167B2905610700BEB9F5 /* IRequest.swift in Sources */,
 				268816712905606C00BEB9F5 /* Reachability.swift in Sources */,
 				2688166E2905604300BEB9F5 /* Extention+Codable.swift in Sources */,
