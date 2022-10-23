@@ -16,6 +16,8 @@
 		268816732905607C00BEB9F5 /* HandleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816722905607C00BEB9F5 /* HandleError.swift */; };
 		268816772905609500BEB9F5 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816762905609500BEB9F5 /* HTTPMethod.swift */; };
 		26881679290560AB00BEB9F5 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26881678290560AB00BEB9F5 /* EndPoint.swift */; };
+		2688167B2905610700BEB9F5 /* IRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688167A2905610700BEB9F5 /* IRequest.swift */; };
+		2688167D2905611400BEB9F5 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688167C2905611400BEB9F5 /* HTTPRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		268816722905607C00BEB9F5 /* HandleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleError.swift; sourceTree = "<group>"; };
 		268816762905609500BEB9F5 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		26881678290560AB00BEB9F5 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		2688167A2905610700BEB9F5 /* IRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRequest.swift; sourceTree = "<group>"; };
+		2688167C2905611400BEB9F5 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				268816722905607C00BEB9F5 /* HandleError.swift */,
 				268816762905609500BEB9F5 /* HTTPMethod.swift */,
 				26881678290560AB00BEB9F5 /* EndPoint.swift */,
+				2688167A2905610700BEB9F5 /* IRequest.swift */,
+				2688167C2905611400BEB9F5 /* HTTPRequest.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 				2688166029055E8800BEB9F5 /* ContentView.swift in Sources */,
 				2688165E29055E8800BEB9F5 /* Bike_StationApp.swift in Sources */,
 				268816772905609500BEB9F5 /* HTTPMethod.swift in Sources */,
+				2688167B2905610700BEB9F5 /* IRequest.swift in Sources */,
 				268816712905606C00BEB9F5 /* Reachability.swift in Sources */,
 				2688166E2905604300BEB9F5 /* Extention+Codable.swift in Sources */,
+				2688167D2905611400BEB9F5 /* HTTPRequest.swift in Sources */,
 				26881679290560AB00BEB9F5 /* EndPoint.swift in Sources */,
 				268816732905607C00BEB9F5 /* HandleError.swift in Sources */,
 			);
