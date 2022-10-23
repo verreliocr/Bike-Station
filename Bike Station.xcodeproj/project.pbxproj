@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2688165E29055E8800BEB9F5 /* Bike_StationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688165D29055E8800BEB9F5 /* Bike_StationApp.swift */; };
-		2688166029055E8800BEB9F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688165F29055E8800BEB9F5 /* ContentView.swift */; };
 		2688166229055E8900BEB9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2688166129055E8900BEB9F5 /* Assets.xcassets */; };
 		2688166529055E8900BEB9F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2688166429055E8900BEB9F5 /* Preview Assets.xcassets */; };
 		2688166E2905604300BEB9F5 /* Extention+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688166D2905604300BEB9F5 /* Extention+Codable.swift */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		2688165A29055E8800BEB9F5 /* Bike Station.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bike Station.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2688165D29055E8800BEB9F5 /* Bike_StationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike_StationApp.swift; sourceTree = "<group>"; };
-		2688165F29055E8800BEB9F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2688166129055E8900BEB9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2688166429055E8900BEB9F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2688166D2905604300BEB9F5 /* Extention+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention+Codable.swift"; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				2688166B2905600900BEB9F5 /* Core */,
 				2688167E2905614000BEB9F5 /* Modules */,
 				2688165D29055E8800BEB9F5 /* Bike_StationApp.swift */,
-				2688165F29055E8800BEB9F5 /* ContentView.swift */,
 				2688166129055E8900BEB9F5 /* Assets.xcassets */,
 				2688166329055E8900BEB9F5 /* Preview Content */,
 			);
@@ -214,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2688166029055E8800BEB9F5 /* ContentView.swift in Sources */,
 				2688165E29055E8800BEB9F5 /* Bike_StationApp.swift in Sources */,
 				268816772905609500BEB9F5 /* HTTPMethod.swift in Sources */,
 				268816842905619000BEB9F5 /* LocationManager.swift in Sources */,

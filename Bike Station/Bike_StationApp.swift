@@ -11,7 +11,7 @@ import SwiftUI
 struct Bike_StationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
         }
     }
 }
