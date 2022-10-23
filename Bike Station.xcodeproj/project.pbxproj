@@ -11,6 +11,11 @@
 		2688166029055E8800BEB9F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688165F29055E8800BEB9F5 /* ContentView.swift */; };
 		2688166229055E8900BEB9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2688166129055E8900BEB9F5 /* Assets.xcassets */; };
 		2688166529055E8900BEB9F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2688166429055E8900BEB9F5 /* Preview Assets.xcassets */; };
+		2688166E2905604300BEB9F5 /* Extention+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688166D2905604300BEB9F5 /* Extention+Codable.swift */; };
+		268816712905606C00BEB9F5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816702905606C00BEB9F5 /* Reachability.swift */; };
+		268816732905607C00BEB9F5 /* HandleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816722905607C00BEB9F5 /* HandleError.swift */; };
+		268816772905609500BEB9F5 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816762905609500BEB9F5 /* HTTPMethod.swift */; };
+		26881679290560AB00BEB9F5 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26881678290560AB00BEB9F5 /* EndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		2688165F29055E8800BEB9F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2688166129055E8900BEB9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2688166429055E8900BEB9F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2688166D2905604300BEB9F5 /* Extention+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention+Codable.swift"; sourceTree = "<group>"; };
+		268816702905606C00BEB9F5 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		268816722905607C00BEB9F5 /* HandleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleError.swift; sourceTree = "<group>"; };
+		268816762905609500BEB9F5 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		26881678290560AB00BEB9F5 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		2688165C29055E8800BEB9F5 /* Bike Station */ = {
 			isa = PBXGroup;
 			children = (
+				2688166B2905600900BEB9F5 /* Core */,
 				2688165D29055E8800BEB9F5 /* Bike_StationApp.swift */,
 				2688165F29055E8800BEB9F5 /* ContentView.swift */,
 				2688166129055E8900BEB9F5 /* Assets.xcassets */,
@@ -65,6 +76,34 @@
 				2688166429055E8900BEB9F5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2688166B2905600900BEB9F5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2688166C2905603300BEB9F5 /* Extensions */,
+				2688166F2905605E00BEB9F5 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2688166C2905603300BEB9F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2688166D2905604300BEB9F5 /* Extention+Codable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2688166F2905605E00BEB9F5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				268816702905606C00BEB9F5 /* Reachability.swift */,
+				268816722905607C00BEB9F5 /* HandleError.swift */,
+				268816762905609500BEB9F5 /* HTTPMethod.swift */,
+				26881678290560AB00BEB9F5 /* EndPoint.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +178,11 @@
 			files = (
 				2688166029055E8800BEB9F5 /* ContentView.swift in Sources */,
 				2688165E29055E8800BEB9F5 /* Bike_StationApp.swift in Sources */,
+				268816772905609500BEB9F5 /* HTTPMethod.swift in Sources */,
+				268816712905606C00BEB9F5 /* Reachability.swift in Sources */,
+				2688166E2905604300BEB9F5 /* Extention+Codable.swift in Sources */,
+				26881679290560AB00BEB9F5 /* EndPoint.swift in Sources */,
+				268816732905607C00BEB9F5 /* HandleError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
