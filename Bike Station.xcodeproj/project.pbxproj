@@ -22,6 +22,7 @@
 		268816872905646F00BEB9F5 /* StationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816862905646F00BEB9F5 /* StationListModel.swift */; };
 		268816892905657600BEB9F5 /* StationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816882905657600BEB9F5 /* StationListView.swift */; };
 		2688168B290565DD00BEB9F5 /* StationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688168A290565DD00BEB9F5 /* StationListViewModel.swift */; };
+		2688168E2905704900BEB9F5 /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688168D2905704900BEB9F5 /* StationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		268816862905646F00BEB9F5 /* StationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListModel.swift; sourceTree = "<group>"; };
 		268816882905657600BEB9F5 /* StationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListView.swift; sourceTree = "<group>"; };
 		2688168A290565DD00BEB9F5 /* StationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListViewModel.swift; sourceTree = "<group>"; };
+		2688168D2905704900BEB9F5 /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				2688167F2905615100BEB9F5 /* Station List */,
+				2688168C2905701400BEB9F5 /* Station Detail */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -148,6 +151,14 @@
 				268816812905617800BEB9F5 /* StationItemRow.swift */,
 			);
 			path = Rows;
+			sourceTree = "<group>";
+		};
+		2688168C2905701400BEB9F5 /* Station Detail */ = {
+			isa = PBXGroup;
+			children = (
+				2688168D2905704900BEB9F5 /* StationDetailView.swift */,
+			);
+			path = "Station Detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +237,7 @@
 				268816772905609500BEB9F5 /* HTTPMethod.swift in Sources */,
 				268816842905619000BEB9F5 /* LocationManager.swift in Sources */,
 				2688168B290565DD00BEB9F5 /* StationListViewModel.swift in Sources */,
+				2688168E2905704900BEB9F5 /* StationDetailView.swift in Sources */,
 				2688167B2905610700BEB9F5 /* IRequest.swift in Sources */,
 				268816712905606C00BEB9F5 /* Reachability.swift in Sources */,
 				2688166E2905604300BEB9F5 /* Extention+Codable.swift in Sources */,
