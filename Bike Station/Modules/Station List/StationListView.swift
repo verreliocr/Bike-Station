@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct StationListView: View {
+    
+    @StateObject private var viewModel = StationListViewModel()
+    
     var body: some View {
         NavigationView {
             List {
-                Section {
-                    StationItemRow()
+                ForEach(viewModel.stationList, id: \.id) { station in
+                    Section {
+                        StationItemRow(stationItem: station)
+                    }
                 }
             }
             .navigationTitle("Bike Station")
+            .onAppear(perform: viewModel.getStationList)
         }
     }
 }

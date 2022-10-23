@@ -6,16 +6,38 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct StationItemRow: View {
+    
+    @StateObject var locationManager = LocationManager()
+    let stationItem: stationItemModel
+    
+    var userLocation: CLLocation {
+        return CLLocation(latitude: locationManager.lastLocation?.coordinate.latitude ?? 0,
+                          longitude: locationManager.lastLocation?.coordinate.longitude ?? 0)
+    }
+    
+    var stationLocation: CLLocation {
+        return CLLocation(latitude: stationItem.geometry?.latitude ?? 0,
+                          longitude: stationItem.geometry?.longitude ?? 0)
+    }
+    
+    var distanceToStation: String {
+        let distance = userLocation.distance(from: stationLocation)
+        let distanceInt = Int(distance)
+        
+        return "\(distanceInt) m"
+    }
+    
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Station Name")
+            Text(stationItem.properties?.label ?? "")
                 .font(.title)
                 .fontWeight(.bold)
             
             HStack {
-                Text("Distance")
+                Text(distanceToStation)
                     .font(.body)
                 Text("Bike Station")
                     .font(.body)
@@ -32,7 +54,7 @@ struct StationItemRow: View {
                     
                     Spacer()
                     
-                    Text("0")
+                    Text(stationItem.properties?.bikes ?? "0")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(.green)
@@ -47,7 +69,7 @@ struct StationItemRow: View {
                     
                     Spacer()
                     
-                    Text("0")
+                    Text(stationItem.properties?.bikeRacks ?? "0")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(.black)
@@ -60,6 +82,6 @@ struct StationItemRow: View {
 
 struct StationItemRow_Previews: PreviewProvider {
     static var previews: some View {
-        StationItemRow()
+        StationItemRow(stationItem: stationItemModel.example)
     }
 }
