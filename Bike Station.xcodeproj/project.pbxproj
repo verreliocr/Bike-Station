@@ -20,6 +20,7 @@
 		268816822905617800BEB9F5 /* StationItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816812905617800BEB9F5 /* StationItemRow.swift */; };
 		268816842905619000BEB9F5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816832905619000BEB9F5 /* LocationManager.swift */; };
 		268816872905646F00BEB9F5 /* StationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816862905646F00BEB9F5 /* StationListModel.swift */; };
+		268816892905657600BEB9F5 /* StationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816882905657600BEB9F5 /* StationListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		268816832905619000BEB9F5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		26881685290561A600BEB9F5 /* Bike-Station-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Bike-Station-Info.plist"; sourceTree = SOURCE_ROOT; };
 		268816862905646F00BEB9F5 /* StationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListModel.swift; sourceTree = "<group>"; };
+		268816882905657600BEB9F5 /* StationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				268816802905616D00BEB9F5 /* Rows */,
 				268816862905646F00BEB9F5 /* StationListModel.swift */,
+				268816882905657600BEB9F5 /* StationListView.swift */,
 			);
 			path = "Station List";
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2688165E29055E8800BEB9F5 /* Bike_StationApp.swift in Sources */,
+				268816892905657600BEB9F5 /* StationListView.swift in Sources */,
 				268816872905646F00BEB9F5 /* StationListModel.swift in Sources */,
 				268816772905609500BEB9F5 /* HTTPMethod.swift in Sources */,
 				268816842905619000BEB9F5 /* LocationManager.swift in Sources */,
