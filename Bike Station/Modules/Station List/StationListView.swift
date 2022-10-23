@@ -16,7 +16,11 @@ struct StationListView: View {
             List {
                 ForEach(viewModel.stationList, id: \.id) { station in
                     Section {
-                        StationItemRow(stationItem: station)
+                        NavigationLink(destination: {
+                            StationDetailView(stationItem: station)
+                        }, label: {
+                            StationItemRow(stationItem: station)
+                        })
                     }
                 }
             }

@@ -23,6 +23,7 @@
 		268816892905657600BEB9F5 /* StationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268816882905657600BEB9F5 /* StationListView.swift */; };
 		2688168B290565DD00BEB9F5 /* StationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688168A290565DD00BEB9F5 /* StationListViewModel.swift */; };
 		2688168E2905704900BEB9F5 /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688168D2905704900BEB9F5 /* StationDetailView.swift */; };
+		26881690290571D000BEB9F5 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688168F290571D000BEB9F5 /* AnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		268816882905657600BEB9F5 /* StationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListView.swift; sourceTree = "<group>"; };
 		2688168A290565DD00BEB9F5 /* StationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListViewModel.swift; sourceTree = "<group>"; };
 		2688168D2905704900BEB9F5 /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
+		2688168F290571D000BEB9F5 /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				2688168D2905704900BEB9F5 /* StationDetailView.swift */,
+				2688168F290571D000BEB9F5 /* AnnotationView.swift */,
 			);
 			path = "Station Detail";
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				268816842905619000BEB9F5 /* LocationManager.swift in Sources */,
 				2688168B290565DD00BEB9F5 /* StationListViewModel.swift in Sources */,
 				2688168E2905704900BEB9F5 /* StationDetailView.swift in Sources */,
+				26881690290571D000BEB9F5 /* AnnotationView.swift in Sources */,
 				2688167B2905610700BEB9F5 /* IRequest.swift in Sources */,
 				268816712905606C00BEB9F5 /* Reachability.swift in Sources */,
 				2688166E2905604300BEB9F5 /* Extention+Codable.swift in Sources */,

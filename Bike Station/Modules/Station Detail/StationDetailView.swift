@@ -42,7 +42,7 @@ struct StationDetailView: View {
                 annotationContent: { annotation in
                 MapAnnotation(coordinate: annotation.coordinate,
                               content: {
-                    EmptyView()
+                    AnnotationView(availableBikes: stationItem.properties?.bikes ?? "0")
                 })
             })
             .edgesIgnoringSafeArea(.top)
